@@ -4,7 +4,6 @@ public class MyTest {
 
     private String id;
     private String name;
-    private String birth;
 
     public MyTest() {
     }
@@ -21,6 +20,5 @@ public class MyTest {
     public MyTest(String id, String name, String birth) {
         this.id = id;
         this.name = name;
-        this.birth = birth;
     }
 }
