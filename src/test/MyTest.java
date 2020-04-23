@@ -31,4 +31,11 @@ public class MyTest {
         this.birth = birth;
         this.company = company;
     }
+
+    public void printMyTest() {
+        System.out.println("id = " + id);
+        System.out.println("name = " + name);
+        System.out.println("birth = " + birth);
+
+    }
 }
