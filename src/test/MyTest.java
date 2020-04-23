@@ -16,9 +16,4 @@ public class MyTest {
         this.id = id;
         this.name = name;
     }
-
-    public MyTest(String id, String name, String birth) {
-        this.id = id;
-        this.name = name;
-    }
 }
