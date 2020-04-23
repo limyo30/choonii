@@ -5,6 +5,7 @@ public class MyTest {
     private String id;
     private String name;
     private String birth;
+    private String company;
 
     public MyTest() {
     }
@@ -22,5 +23,12 @@ public class MyTest {
         this.id = id;
         this.name = name;
         this.birth = birth;
+    }
+
+    public MyTest(String id, String name, String birth, String company) {
+        this.id = id;
+        this.name = name;
+        this.birth = birth;
+        this.company = company;
     }
 }
