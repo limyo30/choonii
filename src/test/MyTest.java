@@ -36,6 +36,5 @@ public class MyTest {
         System.out.println("id = " + id);
         System.out.println("name = " + name);
         System.out.println("birth = " + birth);
-
     }
 }
